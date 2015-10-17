@@ -1,4 +1,4 @@
-# fbuilder
+# Fbuilder
 Form builder for kohana 3.x
 
 #Using Fbuilder
@@ -14,7 +14,6 @@ Create new form file somewhere in config folder /application/config/form/...
 
 ###Example of Registration form:
 ======
-
 	<?php defined('SYSPATH') or die('No direct script access.');
 		return array(
 		'title'=>'New user Registration',
@@ -82,16 +81,15 @@ Create new form file somewhere in config folder /application/config/form/...
 	);
 
 ##Controller
-
 ###To init form:
-// Call instance of Fbuilder
+Call instance of Fbuilder
 
 	 $form = Fbuilder::instance(); 
-// Or call factory to select template 
+Or call factory to select template 
 
 	$form = Fbuilder::factory('default');
 
-// Set form file
+Set form file
 
 	$form->set_form('path to form');
 
