@@ -1,8 +1,8 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 return array(
 	'default'=>array(
-		'view'=>'fbuilder/mainterance',
-		'theme'=>'bootstrap3',
+		'view'=>'fbuilder/default',
+		'theme'=>'default',
 		'params_default'=>array(
 			'button'=>array('class'=>'btn btn-default'),
 			'text'=>array('class'=>'form-control'),
