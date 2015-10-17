@@ -9,13 +9,13 @@ To use Fbuilder, download and extract module into your Kohana instances modules 
 
 The following is a quick example of how to use Fbuilder.
 
-#Form
+##Form
 Create new form file somewhere in config folder /application/config/form/...
 
-Example of Registration form:
+###Example of Registration form:
+======
 
 <?php defined('SYSPATH') or die('No direct script access.');
-
 return array(
 	'title'=>'New user Registration',
 	'style'=>'horizontal',
@@ -80,9 +80,9 @@ return array(
 		'gender'=>1,
 	);
 
-#Controller
+##Controller
 
-To init form:
+###To init form:
 // Call instance of Fbuilder
 
 $form = Fbuilder::instance();
